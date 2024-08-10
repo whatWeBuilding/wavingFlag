@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Flags Waves</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <script src="index.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
+    </head>
+    <body onload="init()">
+        <h1>Flags Waves</h1>
+        <main>
+            <div id="left">
+                <div class="meter">
+                    <p>Select Country</p>
+                    <select id="country" onchange="loadCountryFlag()"></select>
+                </div>
+            </div>
+            <div id="right">
+                <div id="renderArea"></div>
+            </div>
+        </main>
+    </body>
+</html>
